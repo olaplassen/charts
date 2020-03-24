@@ -91,14 +91,14 @@ securityContext:
   privileged: true
 
 ingress:
-  enabled: false
+  enabled: true
   annotations: {}
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   labels: {}
   path: /
   hosts:
-    - chart-example.local
+    - 103735201cdf4fab8fa1.northeurope.aksapp.io
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
