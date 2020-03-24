@@ -22,7 +22,7 @@ acceptEULA: "Y"
 
 service:
   type: ClusterIP
-  port: 5341
+  port: 53410
 
 ui:
   enabled: true
